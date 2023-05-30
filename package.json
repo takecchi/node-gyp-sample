@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "node-gyp sample project",
   "scripts": {
+    "build:gyp": "npx node-gyp configure; npx node-gyp build",
     "start": "ts-node-dev src/index.ts"
   },
   "repository": {
@@ -19,5 +20,8 @@
     "@types/node": "^20.2.5",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "node-gyp": "^9.3.1"
   }
 }
