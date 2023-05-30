@@ -1,0 +1,23 @@
+{
+  "name": "node-gyp-sample",
+  "version": "1.0.0",
+  "description": "node-gyp sample project",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takecchi/node-gyp-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takecchi/node-gyp-sample/issues"
+  },
+  "homepage": "https://github.com/takecchi/node-gyp-sample#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
